@@ -1,5 +1,5 @@
 
-![Logo](https://o.remove.bg/downloads/2856c259-2257-4ff4-b6b6-11f2b139ec9a/image-removebg-preview.png)
+![Logo](app/src/main/res/drawable/logo.png)
 
 
 # 📱Hiper 💱
@@ -57,10 +57,10 @@ As it fetches live API, device needs to be online.
  - View Model for Compose
  
 
-## Screenshots
+## Live ScreenShots : (Optimized to be viewed on Phone Screens Only !!)
 
-![App Screenshot](ss/1app.png)
-![App Screenshot](ss/1app.png)
+
+![App Screenshot](ss/2app.gif)
 
 
 ## Optimizations
