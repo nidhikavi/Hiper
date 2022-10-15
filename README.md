@@ -1,5 +1,5 @@
 
-![Logo](https://o.remove.bg/downloads/2856c259-2257-4ff4-b6b6-11f2b139ec9a/image-removebg-preview.png)
+![Logo](app/src/main/res/drawable/logo.png)
 
 
 # 📱Hiper 💱
