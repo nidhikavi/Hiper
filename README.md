@@ -74,7 +74,7 @@ Please Wait till Gif is loading :)
 
 ## Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+Using Jetpack COmpos along with Dagger Hilt, Retrofit & Lottie makes my app clean , scalable & fast !!!
 
 
 ## Acknowledgements
