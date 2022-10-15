@@ -58,13 +58,17 @@ As it fetches live API, device needs to be online.
  
 
 ## Live ScreenShots : (Optimized to be viewed on Phone Screens Only !!)
+Please Wait till Gif is loading :)
 
-
-![App Screenshot](ss/1app.gif)
-![App Screenshot](ss/2app.gif)
+#### Beautiful Onboarding Screen !!
+![App Screenshot](ss/onboard.gif)
+#### Hiper Calculator (Observer Minimialistic Animations) !!
 ![App Screenshot](ss/3app.gif)
+#### Live Currency Converter !!
 ![App Screenshot](ss/4app.gif)
+#### Light or Dark Theme 😉 !!
 ![App Screenshot](ss/5app.gif)
+#### My fav 💖 No Internet Animation !!
 ![App Screenshot](ss/6app.gif)
 
 
