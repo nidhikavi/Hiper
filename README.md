@@ -60,7 +60,12 @@ As it fetches live API, device needs to be online.
 ## Live ScreenShots : (Optimized to be viewed on Phone Screens Only !!)
 
 
+![App Screenshot](ss/1app.gif)
 ![App Screenshot](ss/2app.gif)
+![App Screenshot](ss/3app.gif)
+![App Screenshot](ss/4app.gif)
+![App Screenshot](ss/5app.gif)
+![App Screenshot](ss/6app.gif)
 
 
 ## Optimizations
