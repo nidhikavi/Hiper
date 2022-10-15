@@ -55,6 +55,12 @@ As it fetches live API, device needs to be online.
  - Pager API
  - Material Theme 3
  - View Model for Compose
+ 
+
+## Screenshots
+
+![App Screenshot](ss/1app.png)
+![App Screenshot](ss/1app.png)
 
 
 ## Optimizations
