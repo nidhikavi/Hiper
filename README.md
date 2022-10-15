@@ -57,7 +57,7 @@ As it fetches live API, device needs to be online.
  - View Model for Compose
  
 
-## Screenshots
+## Live ScreenShots : (Optimized to be viewed on Phone Screens Only !!)
 
 
 ![App Screenshot](ss/2app.gif)
