@@ -74,7 +74,7 @@ Please Wait till Gif is loading :)
 
 ## Optimizations
 
-Using Jetpack COmpos along with Dagger Hilt, Retrofit & Lottie makes my app clean , scalable & fast !!!
+Using Jetpack Compose along with Dagger Hilt, Retrofit & Lottie makes my app clean , scalable & fast !!!
 
 
 ## Acknowledgements
