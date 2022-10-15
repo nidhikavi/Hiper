@@ -62,7 +62,7 @@ Please Wait till Gif is loading :)
 
 ## Beautiful Onboarding Screen !!
 ![App Screenshot](ss/onboard.gif)
-## Hiper Calculator (Observer Minimialistic Animations) !!
+## Hiper Calculator (Observe Minimialistic Animations) !!
 ![App Screenshot](ss/3app.gif)
 ## Live Currency Converter !!
 ![App Screenshot](ss/4app.gif)
