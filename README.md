@@ -59,8 +59,8 @@ As it fetches live API, device needs to be online.
 
 ## Screenshots
 
-![App Screenshot](ss/1app.png)
-![App Screenshot](ss/1app.png)
+
+![App Screenshot](ss/2app.gif)
 
 
 ## Optimizations
