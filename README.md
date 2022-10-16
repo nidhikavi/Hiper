@@ -33,7 +33,7 @@ I bet u will love the UI. ❤️
 
 No!! It Uses System by Default. 
 
-#### 2. Does Animations make App hevay ?
+#### 2. Does Animations make App heavy ?
 
 Using JSON format makes animations much cleaner.
 
