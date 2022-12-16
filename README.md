@@ -61,7 +61,7 @@ As it fetches live API, device needs to be online.
 Please Wait till Gif is loading :)
 
 ## Beautiful Onboarding Screen !!
-![App Screenshot](ss/onboard.gif)
+![App Screenshot](ss/boarding.gif)
 ## Hiper Calculator (Observe Minimialistic Animations) !!
 ![App Screenshot](ss/3app.gif)
 ## Live Currency Converter !!
