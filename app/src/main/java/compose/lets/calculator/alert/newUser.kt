@@ -22,11 +22,11 @@ fun NewUser(
     brush: Brush
 ) {
     val currr by rememberLottieComposition(
-        spec = LottieCompositionSpec.Asset("ig.json")
+        spec = LottieCompositionSpec.Url(url)
     )
     val result = rememberLottieComposition(
-        spec = LottieCompositionSpec.Asset(
-            "introducing.json"
+        spec = LottieCompositionSpec.Url(
+            url
         )
     )
     val progress by animateLottieCompositionAsState(composition = currr)
