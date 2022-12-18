@@ -11,9 +11,9 @@ import compose.lets.calculator.curren.data.NetworkResult
 import compose.lets.calculator.curren.data.dattares
 import compose.lets.calculator.curren.reposirtory.Repository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 import kotlinx.coroutines.launch
 import retrofit2.Response
-import javax.inject.Inject
 
 @HiltViewModel
 class currencyViewModel @Inject constructor(
@@ -23,17 +23,16 @@ class currencyViewModel @Inject constructor(
 
     var exchangeRatesResponse: MutableLiveData<NetworkResult<dattares>> = MutableLiveData()
 
-    fun getExchangeRates(to:String, from:String, amount: String) {
+    fun getExchangeRates(to: String, from: String, amount: String) {
         viewModelScope.launch {
             getExchangeRatesSafeCall(to, from, amount)
         }
     }
 
-    private suspend fun getExchangeRatesSafeCall(to:String, from:String, amount: String) {
+    private suspend fun getExchangeRatesSafeCall(to: String, from: String, amount: String) {
         if (checkInternetConnection()) {
-
-                val response = repository.remote.getExchangeRates(to, from, amount)
-                exchangeRatesResponse.value = handleExchangeRatesResponse(response)
+            val response = repository.remote.getExchangeRates(to, from, amount)
+            exchangeRatesResponse.value = handleExchangeRatesResponse(response)
         } else {
             exchangeRatesResponse.value = NetworkResult.Error(message = "No Internet Connection")
         }
@@ -54,7 +53,7 @@ class currencyViewModel @Inject constructor(
         }
     }
 
-     fun checkInternetConnection(): Boolean {
+    fun checkInternetConnection(): Boolean {
         val connectivityManager =
             getApplication<Application>().getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val activeNetwork = connectivityManager.activeNetwork ?: return false
@@ -66,8 +65,5 @@ class currencyViewModel @Inject constructor(
             capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET) -> true
             else -> false
         }
-
     }
-
-
 }

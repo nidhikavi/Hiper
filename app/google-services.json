@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "787664392008",
+    "project_id": "hiper-3f973",
+    "storage_bucket": "hiper-3f973.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787664392008:android:3f06fde0314702940d2d7d",
+        "android_client_info": {
+          "package_name": "compose.lets.calculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787664392008-065svjcvemtmld0ocpp32kovooask1b3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3OKw2UkQ-beJAaRfQF02-8KvFBFhXo5E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787664392008-065svjcvemtmld0ocpp32kovooask1b3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

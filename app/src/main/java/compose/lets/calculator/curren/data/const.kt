@@ -5,7 +5,6 @@ import compose.lets.calculator.R
 class Constants {
     companion object {
 
-
         const val BASE_URL = "https://api.apilayer.com/currency_data/"
 
         val CURRENCY_CODES_LIST = listOf(

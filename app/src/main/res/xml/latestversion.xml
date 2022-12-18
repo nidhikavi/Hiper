@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <defaultsMap>
+        <entry>
+            <key>latestVersion</key>
+            <value>3</value>
+            <key>DarkBackground</key>
+            <value>0xFF22252d</value>
+            <key>sendNewFaetures</key>
+            <value>no</value>
+            <key>Image1</key>
+            <value>empty</value>
+            <key>isSecondRequired</key>
+            <value>no</value>
+            <key>Image2</key>
+            <value>empty</value>
+            <key>isThirdRequired</key>
+            <value>no</value>
+            <key>Image3</key>
+            <value>empty</value>
+        </entry>
+    </defaultsMap>

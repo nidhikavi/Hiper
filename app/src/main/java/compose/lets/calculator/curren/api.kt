@@ -8,6 +8,10 @@ import retrofit2.http.Query
 
 interface api {
     @GET("convert")
-    @Headers("apikey:76a3DzBgrlrQSWYWnLKwhQCPyJr9B6ba")
-    suspend fun getRates(@Query("to") to:String, @Query("from") from:String, @Query("amount") amount:String):Response<dattares>
+    @Headers("apikey:YtxrNOsacXb0DBIqn0fVQqka6B86jD6Z")
+    suspend fun getRates(
+        @Query("to") to: String,
+        @Query("from") from: String,
+        @Query("amount") amount: String
+    ): Response<dattares>
 }

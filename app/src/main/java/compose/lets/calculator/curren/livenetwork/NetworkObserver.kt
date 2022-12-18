@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package compose.lets.calculator.curren.livenetwork
 
 import android.content.Context
@@ -7,17 +9,14 @@ import android.net.NetworkCapabilities
 import android.net.NetworkRequest
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.channels.awaitClose
-import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.callbackFlow
-import kotlinx.coroutines.flow.distinctUntilChanged
-import kotlinx.coroutines.launch
 
 val Context.currentConnectivityState: ConnectionState
-get() {
-    val connectivityManager =
-        getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
-    return getCurrentConnectivityState(connectivityManager)
-}
+    get() {
+        val connectivityManager =
+            getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
+        return getCurrentConnectivityState(connectivityManager)
+    }
 
 private fun getCurrentConnectivityState(
     connectivityManager: ConnectivityManager
@@ -30,6 +29,7 @@ private fun getCurrentConnectivityState(
 
     return if (connected) ConnectionState.Available else ConnectionState.Unavailable
 }
+
 @ExperimentalCoroutinesApi
 fun Context.observeConnectivityAsFlow() = callbackFlow {
     val connectivityManager = getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

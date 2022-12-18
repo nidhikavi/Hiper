@@ -1,3 +1,0 @@
-Release id - amzn1.devportal.apprelease.12e5c33ea9bc45b09657118e5f2f194c
-
-App id -amzn1.devportal.mobileapp.bf5b7e7fa6734583928b618777e591c0
