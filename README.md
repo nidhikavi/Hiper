@@ -1,4 +1,4 @@
-
+![MasterHead](ss/graph.png)
 ![Logo](app/src/main/res/drawable/logo.png)
 
 
@@ -33,7 +33,7 @@ I bet u will love the UI. ❤️
 
 No!! It Uses System by Default. 
 
-#### 2. Does Animations make App hevay ?
+#### 2. Does Animations make App heavy ?
 
 Using JSON format makes animations much cleaner.
 
@@ -61,8 +61,8 @@ As it fetches live API, device needs to be online.
 Please Wait till Gif is loading :)
 
 ## Beautiful Onboarding Screen !!
-![App Screenshot](ss/onboard.gif)
-## Hiper Calculator (Observer Minimialistic Animations) !!
+![App Screenshot](ss/boarding.gif)
+## Hiper Calculator (Observe Minimialistic Animations) !!
 ![App Screenshot](ss/3app.gif)
 ## Live Currency Converter !!
 ![App Screenshot](ss/4app.gif)
@@ -74,7 +74,7 @@ Please Wait till Gif is loading :)
 
 ## Optimizations
 
-What optimizations did you make in your code? E.g. refactors, performance improvements, accessibility
+Using Jetpack Compose along with Dagger Hilt, Retrofit & Lottie makes my app clean , scalable & fast !!!
 
 
 ## Acknowledgements
