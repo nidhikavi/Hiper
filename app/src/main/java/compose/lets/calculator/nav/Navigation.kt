@@ -23,7 +23,7 @@ import kotlinx.coroutines.launch
 fun Navigation(
     navController: NavHostController,
     mainviewmodel: currencyViewModel,
-    start: String,
+    start: String
 ) {
     val isDark = isSystemInDarkTheme()
     var dark by remember {
@@ -52,12 +52,13 @@ fun Navigation(
                 change = {
                     dark = !dark
                     coroutineScope.launch {
-                        systemUiController.setStatusBarColor(
+                        systemUiController.setSystemBarsColor(
                             color = if (dark) DarkBackground else LightBackground,
                             darkIcons = false
                         )
                     }
-                }, calViewModel = viewModel
+                },
+                calViewModel = viewModel
             )
         }
         composable(route = Screen.Curren.route) {
@@ -68,7 +69,7 @@ fun Navigation(
                 change = {
                     dark = !dark
                     coroutineScope.launch {
-                        systemUiController.setStatusBarColor(
+                        systemUiController.setSystemBarsColor(
                             color = if (dark) DarkBackground else LightBackground,
                             darkIcons = false
                         )
@@ -79,7 +80,7 @@ fun Navigation(
         composable(route = Screen.Boarding.route) {
             Boarding(
                 navHostController = navController,
-                background = dark,
+                background = dark
             )
         }
         composable(

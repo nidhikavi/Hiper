@@ -9,6 +9,7 @@ import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalView
 import androidx.core.view.ViewCompat
+import com.google.accompanist.systemuicontroller.rememberSystemUiController
 
 private val DarkColorScheme = darkColorScheme(
     primary = DarkBackground,
@@ -49,11 +50,14 @@ fun CalculatorTheme(
         darkTheme -> DarkColorScheme
         else -> LightColorScheme
     }
+    val systemUiController = rememberSystemUiController()
     val view = LocalView.current
     if (!view.isInEditMode) {
         SideEffect {
-            (view.context as Activity).window.statusBarColor = if (dark) DarkBackground.toArgb() else LightBackground.toArgb()
-            ViewCompat.getWindowInsetsController(view)?.isAppearanceLightStatusBars = darkTheme
+            systemUiController.setSystemBarsColor(
+                color = if (dark) DarkBackground else LightBackground,
+                darkIcons = false
+            )
         }
     }
 
