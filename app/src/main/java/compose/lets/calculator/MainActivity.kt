@@ -19,6 +19,9 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings
+import com.microsoft.appcenter.AppCenter
+import com.microsoft.appcenter.analytics.Analytics
+import com.microsoft.appcenter.crashes.Crashes
 import compose.lets.calculator.curren.viewmodel.currencyViewModel
 import compose.lets.calculator.nav.Navigation
 import compose.lets.calculator.sharedpreferences.Board
@@ -73,6 +76,7 @@ class MainActivity : ComponentActivity() {
                     intro = remoteConfig.getString("intro")
                 }
             }
+        AppCenter.start(application, "d23b6264-83a1-4900-8826-acef27894f64", Analytics::class.java, Crashes::class.java)
 
         setContent {
             var splashViewModel = SplashViewModel(Board(LocalContext.current))
