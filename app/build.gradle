@@ -20,14 +20,6 @@ android {
         vectorDrawables {
             useSupportLibrary true
         }
-        packagingOptions {
-            doNotStrip '**.so'     // ADD THIS! #1
-        }
-        externalNativeBuild {
-            cmake {
-                cppFlags "-Wl,--build-id -g"     // ADD THIS! #2
-            }
-        }
     }
 
     buildTypes {
