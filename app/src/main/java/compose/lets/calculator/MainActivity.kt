@@ -76,7 +76,7 @@ class MainActivity : ComponentActivity() {
                     intro = remoteConfig.getString("intro")
                 }
             }
-        AppCenter.start(application, "7f0cdd69-a82b-4fa7-9eda-b942164e636b", Analytics::class.java, Crashes::class.java)
+        AppCenter.start(application, "d23b6264-83a1-4900-8826-acef27894f64", Analytics::class.java, Crashes::class.java)
 
         setContent {
             var splashViewModel = SplashViewModel(Board(LocalContext.current))
