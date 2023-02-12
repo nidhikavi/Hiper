@@ -1,6 +1,8 @@
 ![MasterHead](ss/graph.png)
 ![Logo](app/src/main/res/drawable/logo.png)
 
+# STATUS CHECK
+[![Build status](https://build.appcenter.ms/v0.1/apps/c24b6bfd-f164-4077-a7c5-ecd6f59db8b4/branches/dev/badge)](https://appcenter.ms)
 
 # 📱Hiper 💱
 
