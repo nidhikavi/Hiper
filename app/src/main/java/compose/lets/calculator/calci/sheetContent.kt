@@ -47,6 +47,7 @@ fun SheetContent(
             ) {
                 Text(
                     text = "History of Calculations ",
+
                     color = if (background) textDark else textLight,
                     fontSize = 35.sp,
                     fontFamily = builtwith,
