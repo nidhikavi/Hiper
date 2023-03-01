@@ -90,6 +90,7 @@ class MainActivity : ComponentActivity() {
                 println("packageName = $packageName")
                 val navController = rememberNavController()
                 val screen by splashViewModel.startDestination
+                println("Hello")
 
                 var mainViewModel: currencyViewModel =
                     ViewModelProvider(this)[currencyViewModel::class.java]
