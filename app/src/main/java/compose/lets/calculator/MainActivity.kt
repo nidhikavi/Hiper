@@ -84,6 +84,7 @@ class MainActivity : ComponentActivity() {
                 !splashViewModel.isLoading.value
             }
             println("Calendar = ${Calendar.MONTH}")
+            println("Hello Discord}")
 
             CalculatorTheme() {
                 println("packageName = $packageName")
