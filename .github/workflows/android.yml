@@ -1,0 +1,31 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ "master", "*" ]
+  pull_request:
+    branches: [ "master" , "*"]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: set up JDK 11
+      uses: actions/setup-java@v3
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+    - name: Build with Gradle
+      run: ./gradlew build
+      
+    - name: Android CI/CD
+  # You may pin to the exact commit or the version.
+  # uses: henrikhorbovyi/Android-CI-CD@630b451bc0bea1e6fc44f138443487aa83d3675f
+      uses: henrikhorbovyi/Android-CI-CD@v0.0.1-beta5
